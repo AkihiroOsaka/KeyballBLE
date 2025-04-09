@@ -24,15 +24,6 @@
         };
     };
 
-    macros {
-        m1: m1 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp G &kp LS(H) &kp NUMBER_5 &kp V &kp V &kp NUMBER_7 &kp Q &kp LS(W) &kp AT_SIGN &kp NUMBER_1>;
-            label = "M1";
-        };
-    };
-
     behaviors {
         lt_to_layer_0: lt_to_layer_0 {
             compatible = "zmk,behavior-hold-tap";
